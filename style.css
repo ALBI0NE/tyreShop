@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  height: 100%;
+  background: linear-gradient(
+    319.7deg,
+    #b23c3d 0%,
+    #b23c3d 43.9%,
+    white 44%,
+    white 50%,
+    white 100%
+  );
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li a {
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.51);
+}
+nav ul li img {
+  max-width: 28px;
+  margin-right: 0.6rem;
+}
+.top-image {
+  width: 100%;
+  height: 600px;
+  background: url(./img/tekton-O_ufcLVTAYw-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.top-image h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  color: white;
+  font-size: 72px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.51);
+}
+
+.info-top {
+  color: white;
+  padding-left: 8rem;
+  padding-top: 6rem;
+}
+.info-top h2 {
+  font-size: 45px;
+  max-width: 680px;
+  padding-bottom: 2rem;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.51);
+}
+.info-top p {
+  font-size: 24px;
+  max-width: 780px;
+  font-weight: 300;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.51);
+}
+
+.blank {
+  width: 1000px;
+  height: 1700px;
+}
+
+.main h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 2.2rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 4rem 0rem 4rem;
+}
+.service-one,
+.service-two,
+.service-three {
+  background: linear-gradient(0.85turn, #dc5c43, #d23e3c);
+  width: 490px;
+  height: 750px;
+  text-align: center;
+  color: white;
+  border-radius: 14px;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.41);
+}
+
+.service-one,
+.service-two {
+  margin-right: 5rem;
+}
+
+.card-image {
+  background-color: aqua;
+  height: 350px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 14px 14px 0px 0px;
+}
+
+.car-1 {
+  background-image: url(./img/istockphoto-516446305-612x612.jpg);
+}
+
+.car-2 {
+  background-image: url(./img/mechanic-auto-wheel-tyre-changer-29565209.jpg);
+}
+.car-3 {
+  background-image: url(./img/istockphoto-879696268-612x612.jpg);
+}
+
+.container h3 {
+  font-size: 47px;
+  margin-bottom: 10px;
+}
+.container p {
+  font-weight: 300;
+  font-size: 22px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.test-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.test-content {
+  background: linear-gradient(0.25turn, #febe5a, #d0393b);
+  width: 1400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  border-radius: 0% 0% 0% 250px;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.21);
+}
+.test-content::before {
+  content: "Our promise";
+  position: absolute;
+  background: linear-gradient(0.35turn, #febe5a, #d0393b);
+  width: 400px;
+  height: 400px;
+  border-radius: 0% 50% 0% 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inset: 0;
+  font-size: 60px;
+  line-height: 0.8;
+  font-weight: 500;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.21);
+}
+
+.test-content ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 2.5;
+  text-align: center;
+  flex-direction: column;
+  margin-left: 20rem;
+}
+
+.review-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+  gap: 25px;
+}
+
+.reviews-box {
+  background: linear-gradient(0.35turn, #febe5a, #d0393b);
+  height: 350px;
+  width: 375px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.21);
+}
+
+.reviews-box h3 {
+  margin-top: 20px;
+  font-size: 40px;
+}
+.reviews-box p {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 80px;
+  margin-bottom: 10rem;
+}
+
+.map-box iframe {
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.31);
+}
+
+.reviews h2,
+.contact h2 {
+  color: white;
+}
+
+.contact-content ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 32px;
+  line-height: 2.5;
+  flex-direction: column;
+}
+
+.contact-content img {
+  width: 48px;
+  padding-right: 12px;
+}
+
+.contact-content a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-content li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-content ul li a:hover {
+  color: rgb(230, 230, 230);
+}
+
+nav ul li a:hover {
+  color: rgb(230, 230, 230);
+}
